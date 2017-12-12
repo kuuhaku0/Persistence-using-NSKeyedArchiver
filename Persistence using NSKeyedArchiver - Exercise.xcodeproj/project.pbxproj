@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81183FBE1FE0680C00AFE278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81183FBD1FE0680C00AFE278 /* AppDelegate.swift */; };
+		81183FC01FE0680C00AFE278 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81183FBF1FE0680C00AFE278 /* ViewController.swift */; };
+		81183FC31FE0680C00AFE278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81183FC11FE0680C00AFE278 /* Main.storyboard */; };
+		81183FC51FE0680C00AFE278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81183FC41FE0680C00AFE278 /* Assets.xcassets */; };
+		81183FC81FE0680C00AFE278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81183FC61FE0680C00AFE278 /* LaunchScreen.storyboard */; };
+		81183FD31FE0680C00AFE278 /* Persistence_using_NSKeyedArchiver___ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81183FD21FE0680C00AFE278 /* Persistence_using_NSKeyedArchiver___ExerciseTests.swift */; };
+		81183FDE1FE0680C00AFE278 /* Persistence_using_NSKeyedArchiver___ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81183FDD1FE0680C00AFE278 /* Persistence_using_NSKeyedArchiver___ExerciseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81183FCF1FE0680C00AFE278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81183FB21FE0680C00AFE278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81183FB91FE0680C00AFE278;
+			remoteInfo = "Persistence using NSKeyedArchiver - Exercise";
+		};
+		81183FDA1FE0680C00AFE278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81183FB21FE0680C00AFE278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81183FB91FE0680C00AFE278;
+			remoteInfo = "Persistence using NSKeyedArchiver - Exercise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81183FBA1FE0680C00AFE278 /* Persistence using NSKeyedArchiver - Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Persistence using NSKeyedArchiver - Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81183FBD1FE0680C00AFE278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81183FBF1FE0680C00AFE278 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81183FC21FE0680C00AFE278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81183FC41FE0680C00AFE278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81183FC71FE0680C00AFE278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81183FC91FE0680C00AFE278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81183FCE1FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Persistence using NSKeyedArchiver - ExerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81183FD21FE0680C00AFE278 /* Persistence_using_NSKeyedArchiver___ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persistence_using_NSKeyedArchiver___ExerciseTests.swift"; sourceTree = "<group>"; };
+		81183FD41FE0680C00AFE278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81183FD91FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Persistence using NSKeyedArchiver - ExerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81183FDD1FE0680C00AFE278 /* Persistence_using_NSKeyedArchiver___ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persistence_using_NSKeyedArchiver___ExerciseUITests.swift"; sourceTree = "<group>"; };
+		81183FDF1FE0680C00AFE278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81183FB71FE0680C00AFE278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81183FCB1FE0680C00AFE278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81183FD61FE0680C00AFE278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81183FB11FE0680C00AFE278 = {
+			isa = PBXGroup;
+			children = (
+				81183FBC1FE0680C00AFE278 /* Persistence using NSKeyedArchiver - Exercise */,
+				81183FD11FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseTests */,
+				81183FDC1FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseUITests */,
+				81183FBB1FE0680C00AFE278 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81183FBB1FE0680C00AFE278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81183FBA1FE0680C00AFE278 /* Persistence using NSKeyedArchiver - Exercise.app */,
+				81183FCE1FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseTests.xctest */,
+				81183FD91FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81183FBC1FE0680C00AFE278 /* Persistence using NSKeyedArchiver - Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				81183FBD1FE0680C00AFE278 /* AppDelegate.swift */,
+				81183FBF1FE0680C00AFE278 /* ViewController.swift */,
+				81183FC11FE0680C00AFE278 /* Main.storyboard */,
+				81183FC41FE0680C00AFE278 /* Assets.xcassets */,
+				81183FC61FE0680C00AFE278 /* LaunchScreen.storyboard */,
+				81183FC91FE0680C00AFE278 /* Info.plist */,
+			);
+			path = "Persistence using NSKeyedArchiver - Exercise";
+			sourceTree = "<group>";
+		};
+		81183FD11FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				81183FD21FE0680C00AFE278 /* Persistence_using_NSKeyedArchiver___ExerciseTests.swift */,
+				81183FD41FE0680C00AFE278 /* Info.plist */,
+			);
+			path = "Persistence using NSKeyedArchiver - ExerciseTests";
+			sourceTree = "<group>";
+		};
+		81183FDC1FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81183FDD1FE0680C00AFE278 /* Persistence_using_NSKeyedArchiver___ExerciseUITests.swift */,
+				81183FDF1FE0680C00AFE278 /* Info.plist */,
+			);
+			path = "Persistence using NSKeyedArchiver - ExerciseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81183FB91FE0680C00AFE278 /* Persistence using NSKeyedArchiver - Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81183FE21FE0680C00AFE278 /* Build configuration list for PBXNativeTarget "Persistence using NSKeyedArchiver - Exercise" */;
+			buildPhases = (
+				81183FB61FE0680C00AFE278 /* Sources */,
+				81183FB71FE0680C00AFE278 /* Frameworks */,
+				81183FB81FE0680C00AFE278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Persistence using NSKeyedArchiver - Exercise";
+			productName = "Persistence using NSKeyedArchiver - Exercise";
+			productReference = 81183FBA1FE0680C00AFE278 /* Persistence using NSKeyedArchiver - Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81183FCD1FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81183FE51FE0680C00AFE278 /* Build configuration list for PBXNativeTarget "Persistence using NSKeyedArchiver - ExerciseTests" */;
+			buildPhases = (
+				81183FCA1FE0680C00AFE278 /* Sources */,
+				81183FCB1FE0680C00AFE278 /* Frameworks */,
+				81183FCC1FE0680C00AFE278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81183FD01FE0680C00AFE278 /* PBXTargetDependency */,
+			);
+			name = "Persistence using NSKeyedArchiver - ExerciseTests";
+			productName = "Persistence using NSKeyedArchiver - ExerciseTests";
+			productReference = 81183FCE1FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81183FD81FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81183FE81FE0680C00AFE278 /* Build configuration list for PBXNativeTarget "Persistence using NSKeyedArchiver - ExerciseUITests" */;
+			buildPhases = (
+				81183FD51FE0680C00AFE278 /* Sources */,
+				81183FD61FE0680C00AFE278 /* Frameworks */,
+				81183FD71FE0680C00AFE278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81183FDB1FE0680C00AFE278 /* PBXTargetDependency */,
+			);
+			name = "Persistence using NSKeyedArchiver - ExerciseUITests";
+			productName = "Persistence using NSKeyedArchiver - ExerciseUITests";
+			productReference = 81183FD91FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81183FB21FE0680C00AFE278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = C4Q;
+				TargetAttributes = {
+					81183FB91FE0680C00AFE278 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					81183FCD1FE0680C00AFE278 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81183FB91FE0680C00AFE278;
+					};
+					81183FD81FE0680C00AFE278 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81183FB91FE0680C00AFE278;
+					};
+				};
+			};
+			buildConfigurationList = 81183FB51FE0680C00AFE278 /* Build configuration list for PBXProject "Persistence using NSKeyedArchiver - Exercise" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81183FB11FE0680C00AFE278;
+			productRefGroup = 81183FBB1FE0680C00AFE278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81183FB91FE0680C00AFE278 /* Persistence using NSKeyedArchiver - Exercise */,
+				81183FCD1FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseTests */,
+				81183FD81FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81183FB81FE0680C00AFE278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81183FC81FE0680C00AFE278 /* LaunchScreen.storyboard in Resources */,
+				81183FC51FE0680C00AFE278 /* Assets.xcassets in Resources */,
+				81183FC31FE0680C00AFE278 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81183FCC1FE0680C00AFE278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81183FD71FE0680C00AFE278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81183FB61FE0680C00AFE278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81183FC01FE0680C00AFE278 /* ViewController.swift in Sources */,
+				81183FBE1FE0680C00AFE278 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81183FCA1FE0680C00AFE278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81183FD31FE0680C00AFE278 /* Persistence_using_NSKeyedArchiver___ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81183FD51FE0680C00AFE278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81183FDE1FE0680C00AFE278 /* Persistence_using_NSKeyedArchiver___ExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81183FD01FE0680C00AFE278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81183FB91FE0680C00AFE278 /* Persistence using NSKeyedArchiver - Exercise */;
+			targetProxy = 81183FCF1FE0680C00AFE278 /* PBXContainerItemProxy */;
+		};
+		81183FDB1FE0680C00AFE278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81183FB91FE0680C00AFE278 /* Persistence using NSKeyedArchiver - Exercise */;
+			targetProxy = 81183FDA1FE0680C00AFE278 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81183FC11FE0680C00AFE278 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81183FC21FE0680C00AFE278 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81183FC61FE0680C00AFE278 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81183FC71FE0680C00AFE278 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81183FE01FE0680C00AFE278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81183FE11FE0680C00AFE278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81183FE31FE0680C00AFE278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Persistence using NSKeyedArchiver - Exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tyzhaoac.Persistence-using-NSKeyedArchiver---Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81183FE41FE0680C00AFE278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Persistence using NSKeyedArchiver - Exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tyzhaoac.Persistence-using-NSKeyedArchiver---Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81183FE61FE0680C00AFE278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Persistence using NSKeyedArchiver - ExerciseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tyzhaoac.Persistence-using-NSKeyedArchiver---ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persistence using NSKeyedArchiver - Exercise.app/Persistence using NSKeyedArchiver - Exercise";
+			};
+			name = Debug;
+		};
+		81183FE71FE0680C00AFE278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Persistence using NSKeyedArchiver - ExerciseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tyzhaoac.Persistence-using-NSKeyedArchiver---ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persistence using NSKeyedArchiver - Exercise.app/Persistence using NSKeyedArchiver - Exercise";
+			};
+			name = Release;
+		};
+		81183FE91FE0680C00AFE278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Persistence using NSKeyedArchiver - ExerciseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tyzhaoac.Persistence-using-NSKeyedArchiver---ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Persistence using NSKeyedArchiver - Exercise";
+			};
+			name = Debug;
+		};
+		81183FEA1FE0680C00AFE278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Persistence using NSKeyedArchiver - ExerciseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tyzhaoac.Persistence-using-NSKeyedArchiver---ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Persistence using NSKeyedArchiver - Exercise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81183FB51FE0680C00AFE278 /* Build configuration list for PBXProject "Persistence using NSKeyedArchiver - Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81183FE01FE0680C00AFE278 /* Debug */,
+				81183FE11FE0680C00AFE278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81183FE21FE0680C00AFE278 /* Build configuration list for PBXNativeTarget "Persistence using NSKeyedArchiver - Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81183FE31FE0680C00AFE278 /* Debug */,
+				81183FE41FE0680C00AFE278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81183FE51FE0680C00AFE278 /* Build configuration list for PBXNativeTarget "Persistence using NSKeyedArchiver - ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81183FE61FE0680C00AFE278 /* Debug */,
+				81183FE71FE0680C00AFE278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81183FE81FE0680C00AFE278 /* Build configuration list for PBXNativeTarget "Persistence using NSKeyedArchiver - ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81183FE91FE0680C00AFE278 /* Debug */,
+				81183FEA1FE0680C00AFE278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81183FB21FE0680C00AFE278 /* Project object */;
+}
