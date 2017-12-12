@@ -14,6 +14,13 @@
 		81183FC81FE0680C00AFE278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81183FC61FE0680C00AFE278 /* LaunchScreen.storyboard */; };
 		81183FD31FE0680C00AFE278 /* Persistence_using_NSKeyedArchiver___ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81183FD21FE0680C00AFE278 /* Persistence_using_NSKeyedArchiver___ExerciseTests.swift */; };
 		81183FDE1FE0680C00AFE278 /* Persistence_using_NSKeyedArchiver___ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81183FDD1FE0680C00AFE278 /* Persistence_using_NSKeyedArchiver___ExerciseUITests.swift */; };
+		81183FEC1FE068BC00AFE278 /* Pixabay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81183FEB1FE068BC00AFE278 /* Pixabay.swift */; };
+		81183FEE1FE068F200AFE278 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81183FED1FE068F200AFE278 /* NetworkHelper.swift */; };
+		81183FF01FE06ABA00AFE278 /* PixabayAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81183FEF1FE06ABA00AFE278 /* PixabayAPIClient.swift */; };
+		81183FF81FE07DFB00AFE278 /* PictureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81183FF71FE07DFB00AFE278 /* PictureDetailViewController.swift */; };
+		816B88D51FE085D900B527C2 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B88D41FE085D800B527C2 /* FavoritesViewController.swift */; };
+		816B88D71FE0867800B527C2 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B88D61FE0867800B527C2 /* Favorites.swift */; };
+		816B88D91FE086B800B527C2 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B88D81FE086B800B527C2 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		81183FD91FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Persistence using NSKeyedArchiver - ExerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81183FDD1FE0680C00AFE278 /* Persistence_using_NSKeyedArchiver___ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persistence_using_NSKeyedArchiver___ExerciseUITests.swift"; sourceTree = "<group>"; };
 		81183FDF1FE0680C00AFE278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81183FEB1FE068BC00AFE278 /* Pixabay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixabay.swift; sourceTree = "<group>"; };
+		81183FED1FE068F200AFE278 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		81183FEF1FE06ABA00AFE278 /* PixabayAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayAPIClient.swift; sourceTree = "<group>"; };
+		81183FF71FE07DFB00AFE278 /* PictureDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetailViewController.swift; sourceTree = "<group>"; };
+		816B88D41FE085D800B527C2 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		816B88D61FE0867800B527C2 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		816B88D81FE086B800B527C2 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,11 @@
 		81183FB11FE0680C00AFE278 = {
 			isa = PBXGroup;
 			children = (
+				81183FED1FE068F200AFE278 /* NetworkHelper.swift */,
+				81183FEB1FE068BC00AFE278 /* Pixabay.swift */,
+				81183FEF1FE06ABA00AFE278 /* PixabayAPIClient.swift */,
+				816B88D61FE0867800B527C2 /* Favorites.swift */,
+				816B88D81FE086B800B527C2 /* DataModel.swift */,
 				81183FBC1FE0680C00AFE278 /* Persistence using NSKeyedArchiver - Exercise */,
 				81183FD11FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseTests */,
 				81183FDC1FE0680C00AFE278 /* Persistence using NSKeyedArchiver - ExerciseUITests */,
@@ -99,6 +118,8 @@
 			children = (
 				81183FBD1FE0680C00AFE278 /* AppDelegate.swift */,
 				81183FBF1FE0680C00AFE278 /* ViewController.swift */,
+				816B88D41FE085D800B527C2 /* FavoritesViewController.swift */,
+				81183FF71FE07DFB00AFE278 /* PictureDetailViewController.swift */,
 				81183FC11FE0680C00AFE278 /* Main.storyboard */,
 				81183FC41FE0680C00AFE278 /* Assets.xcassets */,
 				81183FC61FE0680C00AFE278 /* LaunchScreen.storyboard */,
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81183FF01FE06ABA00AFE278 /* PixabayAPIClient.swift in Sources */,
+				81183FEE1FE068F200AFE278 /* NetworkHelper.swift in Sources */,
+				816B88D51FE085D900B527C2 /* FavoritesViewController.swift in Sources */,
 				81183FC01FE0680C00AFE278 /* ViewController.swift in Sources */,
 				81183FBE1FE0680C00AFE278 /* AppDelegate.swift in Sources */,
+				816B88D71FE0867800B527C2 /* Favorites.swift in Sources */,
+				81183FF81FE07DFB00AFE278 /* PictureDetailViewController.swift in Sources */,
+				81183FEC1FE068BC00AFE278 /* Pixabay.swift in Sources */,
+				816B88D91FE086B800B527C2 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
